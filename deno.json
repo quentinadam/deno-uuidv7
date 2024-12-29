@@ -1,19 +1,18 @@
 {
   "name": "@quentinadam/uuidv7",
   "version": "0.1.0",
+  "description": "A simple UUIDv7 generation function",
   "license": "MIT",
-  "exports": "./generateUUIDv7.ts",
-  "publish": {
-    "exclude": [
-      ".github/",
-      ".vscode/"
-    ]
-  },
+  "exports": "./src/generateUUIDv7.ts",
   "fmt": {
     "singleQuote": true,
     "lineWidth": 120
   },
-  "tasks": {
-    "check": "deno check **/*.ts"
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true
+  },
+  "imports": {
+    "typescript": "npm:typescript@^5.7.2"
   }
 }
