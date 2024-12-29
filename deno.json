@@ -1,6 +1,6 @@
 {
   "name": "@quentinadam/uuidv7",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple UUIDv7 generation function",
   "license": "MIT",
   "exports": "./src/generateUUIDv7.ts",
