@@ -1,6 +1,6 @@
 {
   "name": "@quentinadam/uuidv7",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A simple UUIDv7 generation function",
   "license": "MIT",
   "author": "Quentin Adam",
@@ -18,6 +18,6 @@
     "noImplicitReturns": true
   },
   "imports": {
-    "typescript": "npm:typescript@^5.9.2"
+    "typescript": "npm:typescript@^5.9.3"
   }
 }
