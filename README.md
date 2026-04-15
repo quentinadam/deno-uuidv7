@@ -7,7 +7,7 @@ A simple UUIDv7 generation function.
 ## Usage
 
 ```ts
-import generateUUIDv7 from '@quentinadam/uuidv7';
+import { generateUUIDv7 } from '@quentinadam/uuidv7';
 
 console.log(generateUUIDv7()); // generate a UUIDv7 based on the current time
 
